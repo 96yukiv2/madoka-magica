@@ -1,0 +1,19 @@
+
+format = '$directory$git_branch$git_status$character'
+add_newline = false
+
+[directory]
+format = '[$path]($style) '
+
+[git_branch]
+format = '[$branch]($style) '
+
+[git_status]
+format = '([$staged$modified$untracked]($style) )'
+staged = '[+$count](green)'
+modified = '[!$count](yellow)'
+untracked = '[?$count](red)'
+
+[character]
+success_symbol = '[>](green)'
+error_symbol = '[>](red)'

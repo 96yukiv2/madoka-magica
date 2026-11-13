@@ -1,0 +1,16 @@
+
+brew "git"
+brew "gh"
+brew "lazygit"
+brew "mise"
+brew "starship"
+brew "zoxide"
+brew "ripgrep"
+brew "fd"
+brew "fzf"
+brew "jq"
+brew "bat"
+brew "eza"
+
+cask "agentsview"
+cask "google-japanese-ime"
